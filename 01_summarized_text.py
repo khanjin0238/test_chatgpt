@@ -26,10 +26,10 @@ def main():
 
         if open_apiKey:
             st.session_state["OPENAI_API"] = open_apiKey
-        st.markdown('--')
+        st.markdown('---')
 
-    st.header("요약 프로그램")
-    st.markdown('--') 
+    st.header(":scroll:요약 프로그램:scroll:")
+    st.markdown('---') 
 
     text = st.text_area("요약 할 글을 입력하세요")
     if st.button("요약"):
